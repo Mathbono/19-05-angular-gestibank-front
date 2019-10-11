@@ -1,0 +1,55 @@
+@charset "UTF-8";
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem;
+	margin: 0;
+	text-align: center;
+	background: content-box no-repeat radial-gradient(crimson, skyblue) 0 0;
+	background: no-repeat url("https://actufinance.fr/wp-content/uploads/2016/09/banque-696x465.jpg") 0 0;
+	background-color: hsl(194, 60%, 50%);
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+}
+.repairFlux {
+	clear: both;
+}
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+}
+a {
+	color: inherit;
+}
+input {
+	margin: 0 5px;
+}
+table {
+	margin: 20px auto 0;
+	background-color: blue;
+}
+table th, table td {
+	border: black 1px solid;
+	border-collapse: collapse;
+	padding: 3px 5px;
+}
+.button {
+    display: inline-block;
+    color: darkred;
+    background-color: chocolate;
+    text-decoration: none;
+    margin: 3px;
+    padding: 3px 5px;
+    border: red 2px solid;
+    border-radius: 5px;
+}

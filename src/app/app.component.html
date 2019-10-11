@@ -1,0 +1,21 @@
+<header>
+	<h1><a routerLink="/">{{ title }}</a></h1>
+	<div>
+		<a routerLink="./client">Espace client</a> |
+		<a routerLink="./conseiller">Espace conseiller</a> |
+		<a routerLink="./admin">Espace admin</a> |
+		<a routerLink="./devise">Convertisseur de devises</a>
+	</div>
+	<div>
+		<a routerLink="./login">
+			<img src="https://api.patentes-y-marcas.com/uploads/BOPIBrand_imagen/abogados-y-gestores-gestibank-m2456557.jpg"
+			width="352" height="98" title="gestibank" alt="gestibank">
+		</a>
+	</div>
+</header>
+<main>
+	<router-outlet></router-outlet>
+</main>
+<footer>
+	<p>Réalisé avec <i class="fas fa-hand-holding-heart"></i> par Mathieu, Michel et Stéphane</p>
+</footer>
